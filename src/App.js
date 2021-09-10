@@ -1,10 +1,11 @@
 import './App.css';
-import SenatorCard from './components/SenatorCard';
+import SenatorContainer from './components/SenatorContainer'
+// import SenatorCard from './components/SenatorCard';
 
 const App = () => {
   return (
     <div className="App">
-      <SenatorCard />
+      <SenatorContainer />
     </div>
   );
 }

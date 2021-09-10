@@ -1,11 +1,14 @@
-import { senators } from "../data/senate"
+import '../App.css'
 
-const SenatorCard = () => {
+const SenatorCard = (props) => {
+    const { firstName, lastName, id } = props
+
     return (
-        senators.map((senator) => {
-            return (<h1 key={senator.id}>{`${senator.first_name} ${senator.last_name}`}</h1>)
-        })
-
+        <div key={id} className="card">
+            <h1>
+                {firstName} {lastName}
+            </h1>
+        </div>
     )
 }
 
