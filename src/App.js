@@ -1,6 +1,7 @@
-import './App.css';
+import React from 'react'
 import SenatorContainer from './components/SenatorContainer'
-// import SenatorCard from './components/SenatorCard';
+
+import './App.css';
 
 const App = () => {
   return (
